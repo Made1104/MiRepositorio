@@ -1,0 +1,79 @@
+.header {
+  background-color: #a4a4d6;
+  text-align: center; }
+  .header .header__logotipo {
+    width: 50%; }
+  .header .header__nav {
+    background-color: black;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center; }
+    .header .header__nav :hover {
+      color: #ac7bda; }
+  .header .nav__items {
+    display: inline-block;
+    width: fit-content;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-weight: bolder;
+    padding-top: 10px;
+    padding-bottom: 10px; }
+  .header .header__iconos {
+    display: flex;
+    flex-direction: row;
+    width: 25px;
+    margin-left: 95%; }
+
+h1 {
+  font-family: 'Catamaran', sans-serif;
+  font-weight: bold; }
+
+h2 {
+  background-color: #a4a4d6;
+  height: 30px;
+  width: fit-content;
+  color: white;
+  font-family: 'Catamaran', sans-serif;
+  font-size: 30px; }
+
+h3 {
+  color: #a4a4d6;
+  font-family: 'Catamaran', sans-serif;
+  font-weight: bold;
+  background-color: black; }
+
+h4 {
+  color: #a4a4d6;
+  font-weight: bolder;
+  font-family: 'Catamaran', sans-serif; }
+
+/*Grillas*/
+#grilla {
+  display: grid;
+  grid-template-rows: 400px 400px 400px 400px;
+  justify-items: center;
+  align-items: center;
+  column-gap: 10px;
+  row-gap: 10px;
+  grid-template-areas: tendencia interior fachada paisajismo; }
+
+#grillaDos {
+  display: grid;
+  grid-template-columns: 400px 400px;
+  justify-items: center;
+  align-items: center;
+  justify-content: space-evenly;
+  column-gap: 10px;
+  row-gap: 10px;
+  grid-template-areas: carolina javier; }
+
+footer {
+  background-image: linear-gradient(to bottom, violet, darkviolet);
+  text-align: right; }
+  footer img {
+    margin-right: 10px; }
+  footer p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-align: right;
+    margin-right: 10px; }

@@ -1,0 +1,99 @@
+.header{
+    background-color: rgb(164, 164, 214);
+    text-align: center;
+    .header__logotipo{
+        width: 50%;
+    }
+    .header__nav{
+        background-color: black;
+        font-family: 'Josefin Sans',
+        sans-serif;
+        text-align: center;
+        :hover {color: rgb(172, 123, 218);}
+    }    
+    .nav__items{
+        display:inline-block;
+        width: fit-content;
+        text-decoration: none;
+        color:white;
+        font-size: 25px;
+        font-weight: bolder;
+        padding-top: 10px;
+        padding-bottom: 10px;        
+    }
+
+    .header__iconos{
+    display: flex;
+    flex-direction: row;
+    width: 25px;
+    margin-left: 95%;
+    }
+    }
+
+h1{
+    font-family: 'Catamaran', sans-serif;
+    font-weight: bold;
+}
+
+h2{
+    background-color:rgb(164, 164, 214);
+    height: 30px;
+    width: fit-content;
+    color: rgb(255, 255, 255);
+    font-family: 'Catamaran', sans-serif;
+    font-size: 30px;
+}
+
+h3{
+    color:rgb(164, 164, 214) ;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: bold;
+    background-color:rgb(0, 0, 0);
+}
+
+h4{
+    color: rgb(164, 164, 214);
+    font-weight: bolder;
+    font-family:'Catamaran', sans-serif ;
+}
+
+/*Grillas*/
+#grilla{
+    display: grid;
+    grid-template-rows: 400px 400px 400px 400px;
+    justify-items: center;
+    align-items: center;
+    column-gap: 10px;
+    row-gap: 10px;
+    grid-template-areas:tendencia
+                        interior
+                        fachada
+                        paisajismo
+}
+#grillaDos{
+    display: grid;
+    grid-template-columns: 400px 400px;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-evenly;
+    column-gap: 10px;
+    row-gap: 10px;
+    grid-template-areas:carolina
+                        javier
+}
+
+footer{
+    background-image: linear-gradient(to bottom,violet,darkviolet) ;
+    text-align: right;
+
+    img{
+        margin-right: 10px;
+    }
+    p{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: rgb(255, 255, 255);
+        text-align: right;
+        margin-right: 10px;
+    }
+    
+}
