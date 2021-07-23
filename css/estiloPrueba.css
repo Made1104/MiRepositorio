@@ -48,6 +48,10 @@ h4 {
   font-weight: bolder;
   font-family: 'Catamaran', sans-serif; }
 
+p{
+  font-family: 'Catamaran', sans-serif;
+}
+
 /*Grillas*/
 #grilla {
   display: grid;
@@ -76,6 +80,15 @@ h4 {
   transform: scale(1.5, 1.5);
 }
 
+.edicionContacto{
+  width: 70%;
+  margin-left: 10%;
+}
+
+.imagenContacto{
+  width: 500px;
+  margin-left: 35%;
+}
 footer {
   background-image: linear-gradient(to bottom, violet, darkviolet);
   text-align: right; }
